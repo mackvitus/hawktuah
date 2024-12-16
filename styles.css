@@ -1,0 +1,79 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    margin-top: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Specifieke stijlen voor de pagina's */
+.intro, .portfolio, .kleurenmodellen {
+    text-align: center;
+}
+
+.portfolio-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.portfolio-item {
+    text-align: center;
+    width: 200px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.kleurvoorbeeld {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.kleurbox {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
