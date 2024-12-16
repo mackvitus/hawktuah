@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="kleurenmodellen.html">Kleurmodellen</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h1>Welkom op mijn website!</h1>
+            <p>Dit is mijn persoonlijke website waarin ik mijn werk en kennis deel.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mijn Website</p>
+    </footer>
+</body>
+</html>
